@@ -1,26 +1,53 @@
 body {
- width: 100vw;
- height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.2rem;
 }
 .App {
   text-align: center;
+  margin-top: 50px;
 }
 
-.square{
+.square {
   background-color: cadetblue;
-  color:#fff;
-  width:8rem;
+  color: #fff;
+  width: 8rem;
   height: 8rem;
-  font-size:5rem;
-  border:white solid 1px;
+  font-size: 5rem;
+  border: white solid 1px;
+  cursor: pointer;
 }
 
-.board{
-  display:grid;
-  place-items:center;
-  margin-top: 300px;
+.board {
+  display: grid;
+  place-items: center;
 
 }
-.board-row{
+.board-row {
   display: flex;
+}
+.status {
+  width: 25vw;
+  height: 10vh;
+  background-color: coral;
+  color: darkblue;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.restart{
+  padding:20px;
+  background-color: darkblue;
+  border-radius: 10px;
+  margin: 10px;
+  color: #fff;
+  font-size:2rem;
+  cursor:pointer;
+  font-family: inherit;
 }
