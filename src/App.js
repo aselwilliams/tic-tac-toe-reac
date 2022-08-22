@@ -1,5 +1,5 @@
 import './index.css';
-import Square from './components/Square'
+import Board from './components/Board'
 
 //Steps:
 //Create Square Component
@@ -12,7 +12,7 @@ import Square from './components/Square'
 function App() {
   return (
     <div className="App">
-     <Square value={'X'}/>
+      <Board />
     </div>
   );
 }
